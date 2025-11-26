@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Menu, X, Check, MapPin, Phone, Mail, ArrowRight, Star, Dumbbell, ChevronRight } from 'lucide-react';
 
 const FmaGymLanding = () => {
