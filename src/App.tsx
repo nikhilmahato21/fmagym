@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import { Menu, X, Check, MapPin, Phone, Mail, ArrowRight, Star, Dumbbell, ChevronRight } from 'lucide-react';
-
+import fmalogo from "../src/assets/FMA-PNG.png";
 const FmaGymLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,8 +11,8 @@ const FmaGymLanding = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-zinc-100">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-bold italic">F</div>
-            <span className="text-xl font-black tracking-tighter uppercase">FMA GYM</span>
+            <div className="w-20 h-20 flex items-center justify-center text-white font-bold italic"><img src={fmalogo}/></div>
+            {/* <span className="text-xl font-black tracking-tighter uppercase">FMA GYM</span> */}
           </div>
 
           <div className="hidden md:flex items-center gap-8 font-medium text-sm tracking-wide uppercase">
@@ -86,8 +86,8 @@ const FmaGymLanding = () => {
           {/* Top Far Right Image */}
           <div className="col-span-1 relative group overflow-hidden rounded-2xl bg-black flex items-center justify-center p-6">
             <div className="text-center">
-               <h3 className="text-white text-4xl font-black italic mb-2">30%</h3>
-               <p className="text-zinc-400 text-sm uppercase">Discount for new members</p>
+               <h3 className="text-white text-4xl font-black italic mb-2">15-20%</h3>
+               <p className="text-zinc-400 text-sm uppercase">Discount  for females , students. </p>
             </div>
           </div>
 
@@ -117,7 +117,7 @@ const FmaGymLanding = () => {
                   "Customized Diet Plans (Fat Loss / Gain)", 
                   "Physiotherapy Functional Fitness Classes",
                   "Group HIIT Sessions",
-                  "Olympic Lifting Workshops"
+                  
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-4 group cursor-pointer">
                     <div className="w-2 h-2 bg-black rounded-full group-hover:w-4 transition-all" />
@@ -169,12 +169,12 @@ const FmaGymLanding = () => {
                    <Star size={100} />
                 </div>
                 <h3 className="text-xl font-bold uppercase text-zinc-400 mb-2">Premium</h3>
-                <div className="text-5xl font-black mb-6">$320<span className="text-sm font-normal text-zinc-500">/month</span></div>
+                <div className="text-5xl font-black mb-6">₹6800<span className="text-sm font-normal text-zinc-500">/year</span></div>
                 <ul className="space-y-4 mb-8 text-zinc-300 text-sm">
-                   <li className="flex items-center gap-2"><Check size={16} /> Personal Gold Trainer</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> All Facilities Access</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> Free Dress & Supplements</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> Diet Programs</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Personalized Diet plan</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Customized Workout Plan</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Full Facilities Access</li>
+                  <li className="flex items-center gap-2"><Check size={16} /> Body Assessment on Start</li>
                 </ul>
                 <button className="w-full bg-white text-black py-3 rounded-full font-bold uppercase text-sm hover:bg-zinc-200 transition-colors">Book Now</button>
              </div>
@@ -183,12 +183,13 @@ const FmaGymLanding = () => {
              <div className="bg-zinc-800 border-2 border-white/10 p-8 rounded-2xl scale-110 shadow-2xl relative z-20">
                 <div className="absolute top-0 right-0 bg-white text-black text-xs font-bold px-3 py-1 rounded-bl-lg">POPULAR</div>
                 <h3 className="text-xl font-bold uppercase text-zinc-300 mb-2">Advanced</h3>
-                <div className="text-5xl font-black mb-6">$120<span className="text-sm font-normal text-zinc-400">/month</span></div>
+                <div className="text-5xl font-black mb-6">₹3600<span className="text-sm font-normal text-zinc-400">/6 months</span></div>
                 <ul className="space-y-4 mb-8 text-zinc-200 text-sm">
-                   <li className="flex items-center gap-2"><Check size={16} /> Professional Trainers</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> 20 Sessions</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> Diet Program</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> Sauna Access</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Customized Workout Plan</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Full Facilities Access</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Trainer Guidance(General Support)</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Body Assessment on Start</li>
+                  
                 </ul>
                 <button className="w-full bg-white text-black py-4 rounded-full font-bold uppercase text-sm hover:bg-zinc-200 transition-colors shadow-lg">Book Now</button>
              </div>
@@ -196,11 +197,11 @@ const FmaGymLanding = () => {
              {/* Basic */}
              <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl hover:scale-105 transition-transform duration-300">
                 <h3 className="text-xl font-bold uppercase text-zinc-400 mb-2">Basic</h3>
-                <div className="text-5xl font-black mb-6">$70<span className="text-sm font-normal text-zinc-500">/month</span></div>
+                <div className="text-5xl font-black mb-6">₹1950<span className="text-sm font-normal text-zinc-500">/3 months</span></div>
                 <ul className="space-y-4 mb-8 text-zinc-300 text-sm">
-                   <li className="flex items-center gap-2"><Check size={16} /> Impressions Trainers</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> Diet Programs</li>
-                   <li className="flex items-center gap-2"><Check size={16} /> Locker Access</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Basic Guidance for Beginners</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Full Facilities Access</li>
+                   <li className="flex items-center gap-2"><Check size={16} /> Body Assessment on Start</li>
                 </ul>
                 <button className="w-full bg-transparent border border-zinc-700 text-white py-3 rounded-full font-bold uppercase text-sm hover:bg-zinc-800 transition-colors">Book Now</button>
              </div>
@@ -263,28 +264,28 @@ const FmaGymLanding = () => {
                         <MapPin className="text-zinc-500 mt-1" />
                         <div>
                            <p className="font-bold uppercase text-sm text-zinc-500">Location</p>
-                           <p className="text-lg">81st Floor, Spiral Tower, Jamshedpur</p>
+                           <p className="text-lg">SunCity , Chandil, Jharkhand</p>
                         </div>
                      </div>
                      <div className="flex items-start gap-4">
                         <Phone className="text-zinc-500 mt-1" />
                         <div>
                            <p className="font-bold uppercase text-sm text-zinc-500">Phone</p>
-                           <p className="text-lg">+91 (0) 086 998 7880</p>
+                           <p className="text-lg">+91 9241499491</p>
                         </div>
                      </div>
                      <div className="flex items-start gap-4">
                         <Mail className="text-zinc-500 mt-1" />
                         <div>
                            <p className="font-bold uppercase text-sm text-zinc-500">Email</p>
-                           <p className="text-lg">info@fmagym.com</p>
+                           <p className="text-lg">fitnessmantraarena@gmail.com</p>
                         </div>
                      </div>
                   </div>
                </div>
                
                <div className="mt-8 pt-8 border-t border-zinc-800">
-                  <p className="text-xs text-zinc-500 uppercase">© 2024 FMA Gym. All rights reserved.</p>
+                  <p className="text-xs text-zinc-500 uppercase">© 2025 FMA . All rights reserved.</p>
                </div>
             </div>
 
