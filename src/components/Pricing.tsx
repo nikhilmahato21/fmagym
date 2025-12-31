@@ -1,4 +1,4 @@
-import { Check, MapPin, Phone, Mail, ArrowRight, Star, Dumbbell, ChevronRight } from 'lucide-react';
+import { Check, Star } from 'lucide-react';
 
 
 
