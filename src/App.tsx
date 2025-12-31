@@ -10,12 +10,13 @@ import TrustPartners from './components/TrustPartners';
 import { HowWeHelp } from './components/HowWeHelp';
 
 import WhatsAppFloating from './components/WhatsAppFloating';
+import { NewYearPopup } from './components/NewYearPopUp';
 const FmaGymLanding = () => {
   
 
   return (
     <div className="min-h-screen bg-zinc-50 font-sans text-zinc-900 selection:bg-black selection:text-white">
-      
+      <NewYearPopup/>
       {/* NAVIGATION */}
 <Navbar/>
 
