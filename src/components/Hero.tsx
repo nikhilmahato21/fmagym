@@ -1,6 +1,10 @@
 import { ArrowRight} from 'lucide-react';
 
 export const Hero = () => {
+  const phoneNumber = "919241499491"; // replace with your WhatsApp number (no +)
+
+const message =
+  "Hi, I’m interested in joining and would like to know more about registration.";
   return (
     <section id="home" className="pt-32 pb-20 px-6 max-w-7xl mx-auto">
         <div className="mb-12">
@@ -11,9 +15,15 @@ export const Hero = () => {
           </h1>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-t border-black pt-6">
             <h2 className="text-2xl font-bold uppercase mb-4 md:mb-0">Registration Now Open</h2>
-            <button className="bg-black text-white px-8 py-3 rounded-full font-bold uppercase tracking-wider hover:bg-zinc-800 transition-all flex items-center gap-2">
-              Join Now <ArrowRight size={18} />
-            </button>
+            <a
+  href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-black text-white px-8 py-3 rounded-full font-bold uppercase tracking-wider hover:bg-zinc-800 transition-all flex items-center gap-2">
+    Join Now <ArrowRight size={18} />
+  </button>
+</a>
           </div>
         </div>
 

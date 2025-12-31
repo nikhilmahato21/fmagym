@@ -18,35 +18,38 @@ const helpItems = [
 
 export const HowWeHelp = () => {
   return (
-    <section className="bg-white py-24">
+    <section id="training" className="bg-white py-24 mb-20">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Heading */}
-        <h2 className="text-center text-xl md:text-2xl font-medium text-zinc-900 mb-14">
+        <h2 className="text-center text-3xl md:text-4xl font-black  text-zinc-800 mb-14  uppercase">
           Here’s how we can help you
         </h2>
 
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {helpItems.map((item) => (
-            <div key={item.step} className="text-center">
+            <div key={item.step} >
 
               {/* Title pill */}
-              <div className="inline-flex items-center justify-center border border-zinc-300 rounded-md px-6 py-3 mb-6">
-                <span className="text-sm font-medium text-zinc-900">
+              <div className="inline-flex items-center justify-center border-2 border-zinc-400 rounded-md px-6 py-3 mb-6">
+                <span className="text-lg font-black uppercase text-zinc-900">
                   {item.title}
                 </span>
               </div>
 
               {/* Step number */}
-              <div className="text-sm text-zinc-500 mb-3">
+              <div className="flex gap-2">
+                <div className="text-3xl font-black text-zinc-600 mb-3">
                 {item.step}
               </div>
 
               {/* Description */}
-              <p className="text-sm text-zinc-600 leading-relaxed max-w-xs mx-auto">
+              <p className="text-sm text-zinc-500 font-black  leading-relaxed max-w-2xs border-l-2 p-2 ">
                 {item.desc}
               </p>
+              </div>
+              
 
             </div>
           ))}

@@ -8,6 +8,8 @@ import { Testimonial } from './components/Testimonial';
 import { Footer } from './components/Footer';
 import TrustPartners from './components/TrustPartners';
 import { HowWeHelp } from './components/HowWeHelp';
+import { OfferTicker } from './components/OfferTicker';
+import WhatsAppFloating from './components/WhatsAppFloating';
 const FmaGymLanding = () => {
   
 
@@ -37,6 +39,7 @@ const FmaGymLanding = () => {
 
       {/* FOOTER / CTA */}
       <Footer/>
+      <WhatsAppFloating />
      
 
     </div>

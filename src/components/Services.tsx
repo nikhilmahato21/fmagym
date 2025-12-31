@@ -33,7 +33,7 @@ const serviceImages = [
 
 export const Services = () => {
   return (
-    <section className="bg-white py-20 border-t border-zinc-200">
+    <section className="bg-white py-24 border-t border-zinc-200">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
 
@@ -60,7 +60,7 @@ export const Services = () => {
             {/* INFO CARD */}
             <div className="mt-12 p-6 bg-zinc-100 rounded-xl border border-zinc-200">
               <Dumbbell className="w-8 h-8 mb-4" />
-              <h3 className="text-xl font-bold mb-2">Expert Trainers</h3>
+              <h3 className="text-xl font-black uppercase mb-2">Expert Trainers</h3>
               <p className="text-zinc-600 leading-relaxed">
                 Our certified coaches are dedicated to pushing you to your
                 absolute limits safely.

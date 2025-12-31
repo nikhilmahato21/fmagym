@@ -32,10 +32,10 @@ const TrustPartners = () => {
 
           {/* CONTENT */}
           <div className="relative z-10 max-w-xl">
-            <h3 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-              Trusted supplements,
+            <h3 className="text-3xl md:text-4xl font-black text-white leading-tight uppercase">
+              TRUSTED SUPPLEMENTS,
               <br />
-              verified for purity.
+              VERIFIED FOR PURITY.
             </h3>
 
             <p className="mt-4 text-gray-300 text-base leading-relaxed">

@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Harvey Specter",
-    since: "Member since 2023",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "Joining FMA was the best decision. The customized plan actually works with my busy schedule."
+    name: "Niranjan",
+    since: "Member since 2025",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjV8Lz83PEO9YlwUWCDqE1NEVClDubtlg62LgksWwA5cG5yXYUX4=w144-h144-p-rp-mo-br100",
+    text: "Affordable gym with proper guidance."
   },
   {
-    name: "Daniel Ross",
-    since: "Member since 2022",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
-    text: "The trainers here genuinely care. I’ve never felt stronger or more confident."
+    name: "Nikhil",
+    since: "Member since 2025",
+    image: "https://lh3.googleusercontent.com/a-/ALV-UjVuMJLQBkg58qJAq2PHBVnp4vfQknxHxGzgE7SU64x4JUKidrhs=w144-h144-p-rp-mo-br100",
+    text: "Clean space, solid equipment and motivating environment."
   },
   {
-    name: "Mike Pearson",
-    since: "Member since 2024",
-    image: "https://randomuser.me/api/portraits/men/12.jpg",
+    name: "Shekhar",
+    since: "Member since 2025",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png?20200919003010",
     text: "Clean supplements, verified quality, and real results. No gimmicks."
   }
 ];
