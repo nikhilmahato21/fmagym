@@ -42,6 +42,7 @@ export function NewYearPopup() {
             <p className="text-gray-600 text-sm md:text-base">
              Another year. Stronger than before. 💪
             </p>
+            <p className="font-black border-2 text-lg p-3 mt-3">Grab your offers!!</p>
           </motion.div>
         </motion.div>
       )}
