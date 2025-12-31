@@ -82,7 +82,7 @@ export const Services = () => {
                 />
 
                 {/* Overlay */}
-                <div className="absolute bottom-0 w-full p-4 bg-gradient-to-t from-black/90 to-transparent">
+                <div className="absolute bottom-0 w-full p-4 bg-linear-to-t from-black/90 to-transparent">
                   <div className="w-8 h-8 rounded-full bg-white/20 backdrop-blur flex items-center justify-center">
                     <span className="text-white text-xs">+</span>
                   </div>

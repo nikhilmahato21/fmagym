@@ -1,5 +1,4 @@
 
-import { Check, MapPin, Phone, Mail, ArrowRight, Star, Dumbbell, ChevronRight } from 'lucide-react';
 
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';

@@ -1,4 +1,4 @@
-import { Check, MapPin, Phone, Mail, ArrowRight, Star, Dumbbell, ChevronRight } from 'lucide-react';
+import { ArrowRight} from 'lucide-react';
 
 export const Hero = () => {
   return (
@@ -7,7 +7,7 @@ export const Hero = () => {
           <p className="text-sm font-bold tracking-widest text-zinc-500 mb-2 uppercase">Achieve your fitness goals</p>
           <h1 className="text-7xl md:text-9xl font-black tracking-tighter uppercase leading-[0.85] mb-6">
             Unleash <br />
-            <span className="text-outline-black text-transparent bg-clip-text bg-gradient-to-b from-zinc-800 to-black" style={{WebkitTextStroke: '2px black'}}>Your Power</span>
+            <span className="text-outline-black text-transparent bg-clip-text bg-linear-to-b from-zinc-800 to-black" style={{WebkitTextStroke: '2px black'}}>Your Power</span>
           </h1>
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-t border-black pt-6">
             <h2 className="text-2xl font-bold uppercase mb-4 md:mb-0">Registration Now Open</h2>
@@ -26,7 +26,7 @@ export const Hero = () => {
               alt="Back Workout" 
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
-            <div className="absolute bottom-0 left-0 p-6 bg-gradient-to-t from-black/80 to-transparent w-full">
+            <div className="absolute bottom-0 left-0 p-6 bg-linear-to-t from-black/80 to-transparent w-full">
               <span className="text-white font-bold uppercase tracking-wider">Strength Training</span>
             </div>
           </div>

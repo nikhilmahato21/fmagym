@@ -13,11 +13,11 @@ const TrustPartners = () => {
             className="
               pointer-events-none
               absolute
-              right-[-40px]
+              -right-10
               top-1/2
               -translate-y-1/2
               w-[320px]
-              h-[320px]
+              h-80
               text-white
               opacity-[0.05]
             "
@@ -27,7 +27,7 @@ const TrustPartners = () => {
           <img
             src="/trustified-logo.png"
             alt=""
-            className="pointer-events-none absolute right-[-120px] bottom-[-40px] w-[360px] opacity-[0.04]"
+            className="pointer-events-none absolute right-[-120px] -bottom-10 w-[360px] opacity-[0.04]"
           />
 
           {/* CONTENT */}
